@@ -30,9 +30,9 @@ const services = [
   },
   {
     icon: Scissors,
-    title: "Chirurgia stomatologiczna",
+    title: "Chirurgia stomatologiczna z implantologią",
     description:
-      "Ekstrakcje zębów, w tym zębów mądrości. Zabiegi przeprowadzane w bezpiecznych warunkach z troską o komfort.",
+      "Ekstrakcje zębów, w tym zębów mądrości, oraz wszczepienie implantów. Zabiegi przeprowadzane w bezpiecznych warunkach z troską o komfort.",
   },
 ];
 

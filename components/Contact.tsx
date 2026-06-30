@@ -50,10 +50,7 @@ export default function Contact() {
               </div>
             </div>
 
-            <a
-              href="tel:600970314"
-              className="group bg-white rounded-2xl p-6 shadow-sm border border-slate-100 hover:shadow-lg hover:border-teal-200 transition-all duration-300"
-            >
+            <div className="group bg-white rounded-2xl p-6 shadow-sm border border-slate-100 hover:shadow-lg hover:border-teal-200 transition-all duration-300">
               <div className="flex items-start gap-4">
                 <div className="w-11 h-11 bg-gradient-to-br from-teal-500 to-cyan-500 rounded-xl flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform">
                   <Phone size={20} className="text-white" />
@@ -62,12 +59,15 @@ export default function Contact() {
                   <h3 className="font-cormorant font-semibold text-lg text-slate-800 mb-1">
                     Telefon
                   </h3>
-                  <span className="font-lato text-primary font-bold text-lg group-hover:text-primary-dark transition-colors">
+                  <a href="tel:600970314" className="block font-lato text-primary font-bold text-lg hover:text-primary-dark transition-colors">
                     600 970 314
-                  </span>
+                  </a>
+                  <a href="tel:224357736" className="block font-lato text-slate-500 text-sm hover:text-primary transition-colors mt-0.5">
+                    22 435 77 36
+                  </a>
                 </div>
               </div>
-            </a>
+            </div>
 
             <div className="bg-white rounded-2xl p-6 shadow-sm border border-slate-100">
               <div className="flex items-start gap-4">

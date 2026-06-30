@@ -1,6 +1,6 @@
 "use client";
 
-import { Phone, MapPin, Star } from "lucide-react";
+import { Phone, MapPin } from "lucide-react";
 import { useEffect, useRef } from "react";
 
 const stats = [
@@ -50,11 +50,6 @@ export default function Hero() {
         <div className="max-w-3xl">
           {/* Eyebrow badge */}
           <div className="inline-flex items-center gap-2 rounded-full border border-teal-300/30 bg-teal-400/10 backdrop-blur-sm px-4 py-1.5 mb-7">
-            <span className="flex gap-0.5">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} size={13} className="fill-teal-300 text-teal-300" />
-              ))}
-            </span>
             <span className="font-lato text-xs text-teal-100 tracking-wide">
               Centrum Stomatologiczne Monika Wróbel
             </span>

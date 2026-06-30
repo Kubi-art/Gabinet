@@ -40,14 +40,22 @@ export default function Footer() {
                 <MapPin size={17} className="text-teal-400 shrink-0 mt-0.5" />
                 <span>ul. Przy Stawie 37, 05-502 Kamionka</span>
               </li>
-              <li className="flex items-center gap-3">
-                <Phone size={17} className="text-teal-400 shrink-0" />
-                <a
-                  href="tel:600970314"
-                  className="font-lato text-sm text-slate-400 hover:text-teal-300 transition-colors"
-                >
-                  600 970 314
-                </a>
+              <li className="flex items-start gap-3">
+                <Phone size={17} className="text-teal-400 shrink-0 mt-0.5" />
+                <div className="flex flex-col gap-0.5">
+                  <a
+                    href="tel:600970314"
+                    className="font-lato text-sm text-slate-400 hover:text-teal-300 transition-colors"
+                  >
+                    600 970 314
+                  </a>
+                  <a
+                    href="tel:224357736"
+                    className="font-lato text-sm text-slate-500 hover:text-teal-300 transition-colors"
+                  >
+                    22 435 77 36
+                  </a>
+                </div>
               </li>
               <li className="flex items-start gap-3 font-lato text-sm text-slate-400">
                 <Clock size={17} className="text-teal-400 shrink-0 mt-0.5" />
