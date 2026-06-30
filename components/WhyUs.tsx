@@ -14,7 +14,7 @@ const reasons = [
     icon: Sparkles,
     title: "Nowoczesny sprzęt",
     description:
-      "Rentgen cyfrowy, mikroskop, leczenie laserem — dzięki najnowocześniejszemu wyposażeniu diagnozujemy i leczymy szybciej oraz dokładniej.",
+      "Rentgen cyfrowy i nowoczesne unity stomatologiczne — dzięki nowoczesnemu wyposażeniu diagnozujemy i leczymy szybciej oraz dokładniej.",
   },
   {
     icon: HeartHandshake,
