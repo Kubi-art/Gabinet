@@ -1,4 +1,4 @@
-import { Phone, MapPin, Clock, Stethoscope } from "lucide-react";
+import { Phone, MapPin, Stethoscope } from "lucide-react";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -56,14 +56,6 @@ export default function Footer() {
                     22 435 77 36
                   </a>
                 </div>
-              </li>
-              <li className="flex items-start gap-3 font-lato text-sm text-slate-400">
-                <Clock size={17} className="text-teal-400 shrink-0 mt-0.5" />
-                <span>
-                  Pon–Pt: 9:00–18:00
-                  <br />
-                  Sob: 9:00–13:00
-                </span>
               </li>
             </ul>
           </div>

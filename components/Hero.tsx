@@ -28,7 +28,6 @@ export default function Hero() {
           alt="Nowoczesny gabinet stomatologiczny"
           className="w-full h-full object-cover opacity-70"
         />
-        {/* Layered gradients for depth */}
         <div className="absolute inset-0 bg-gradient-to-tr from-slate-950 via-slate-900/80 to-teal-900/40" />
         <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-transparent to-slate-950/30" />
       </div>
@@ -48,13 +47,6 @@ export default function Hero() {
         className="reveal reveal-stagger relative z-10 w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-32"
       >
         <div className="max-w-3xl">
-          {/* Eyebrow badge */}
-          <div className="inline-flex items-center gap-2 rounded-full border border-teal-300/30 bg-teal-400/10 backdrop-blur-sm px-4 py-1.5 mb-7">
-            <span className="font-lato text-xs text-teal-100 tracking-wide">
-              Centrum Stomatologiczne Monika Wróbel
-            </span>
-          </div>
-
           <h1 className="font-cormorant font-bold text-white text-5xl sm:text-6xl lg:text-7xl xl:text-8xl leading-[0.95] mb-7">
             Twój uśmiech
             <br />

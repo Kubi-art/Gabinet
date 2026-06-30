@@ -1,13 +1,7 @@
 "use client";
 
-import { MapPin, Phone, Clock, Navigation } from "lucide-react";
+import { MapPin, Phone, Navigation } from "lucide-react";
 import { useReveal } from "./useReveal";
-
-const hours = [
-  { days: "Poniedziałek – Piątek", time: "9:00 – 18:00", open: true },
-  { days: "Sobota", time: "9:00 – 13:00", open: true },
-  { days: "Niedziela", time: "Nieczynne", open: false },
-];
 
 export default function Contact() {
   const ref = useReveal<HTMLDivElement>(0.1);
@@ -69,38 +63,6 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="bg-white rounded-2xl p-6 shadow-sm border border-slate-100">
-              <div className="flex items-start gap-4">
-                <div className="w-11 h-11 bg-gradient-to-br from-teal-500 to-cyan-500 rounded-xl flex items-center justify-center shrink-0">
-                  <Clock size={20} className="text-white" />
-                </div>
-                <div className="w-full">
-                  <h3 className="font-cormorant font-semibold text-lg text-slate-800 mb-3">
-                    Godziny otwarcia
-                  </h3>
-                  <ul className="space-y-2.5">
-                    {hours.map((h) => (
-                      <li
-                        key={h.days}
-                        className="flex justify-between items-center font-lato text-sm text-slate-600 border-b border-dashed border-slate-100 pb-2 last:border-0 last:pb-0"
-                      >
-                        <span>{h.days}</span>
-                        <span
-                          className={`font-bold px-2.5 py-0.5 rounded-full text-xs ${
-                            h.open
-                              ? "bg-accent text-primary-dark"
-                              : "bg-slate-100 text-slate-400"
-                          }`}
-                        >
-                          {h.time}
-                        </span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            </div>
-
             <a
               href="tel:600970314"
               className="group flex items-center justify-center gap-2 bg-primary text-white font-lato font-bold px-6 py-4 rounded-full transition-all duration-300 hover:bg-primary-dark hover:shadow-[0_12px_30px_-10px_rgba(13,148,136,0.8)] hover:scale-[1.02]"
@@ -113,7 +75,6 @@ export default function Contact() {
           {/* Map */}
           <div className="lg:col-span-3">
             <div className="relative h-full min-h-[420px] rounded-3xl overflow-hidden shadow-xl shadow-slate-300/40 border border-slate-100 bg-slate-100">
-              {/* Styled fallback shown behind the iframe */}
               <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-6 bg-gradient-to-br from-teal-50 to-cyan-50">
                 <div className="w-16 h-16 rounded-2xl bg-primary/10 flex items-center justify-center mb-4">
                   <Navigation size={26} className="text-primary" />
